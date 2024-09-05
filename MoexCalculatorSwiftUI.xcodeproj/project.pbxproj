@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		1A84C2BA2C89955A0093815F /* MoexCalculatorSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A84C2B92C89955A0093815F /* MoexCalculatorSwiftUIApp.swift */; };
-		1A84C2BC2C89955A0093815F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A84C2BB2C89955A0093815F /* ContentView.swift */; };
+		1A84C2BC2C89955A0093815F /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A84C2BB2C89955A0093815F /* CalculatorView.swift */; };
 		1A84C2BE2C89955C0093815F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A84C2BD2C89955C0093815F /* Assets.xcassets */; };
 		1A84C2C12C89955C0093815F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A84C2C02C89955C0093815F /* Preview Assets.xcassets */; };
+		1A84C2C82C89D6310093815F /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A84C2C72C89D6310093815F /* Currency.swift */; };
+		1A84C2CA2C89D7C60093815F /* CalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A84C2C92C89D7C60093815F /* CalculatorModel.swift */; };
+		1A84C2CC2C89DBE30093815F /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A84C2CB2C89DBE30093815F /* CalculatorViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1A84C2B62C89955A0093815F /* MoexCalculatorSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoexCalculatorSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A84C2B92C89955A0093815F /* MoexCalculatorSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoexCalculatorSwiftUIApp.swift; sourceTree = "<group>"; };
-		1A84C2BB2C89955A0093815F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A84C2BB2C89955A0093815F /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
 		1A84C2BD2C89955C0093815F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A84C2C02C89955C0093815F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A84C2C72C89D6310093815F /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		1A84C2C92C89D7C60093815F /* CalculatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorModel.swift; sourceTree = "<group>"; };
+		1A84C2CB2C89DBE30093815F /* CalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				1A84C2B92C89955A0093815F /* MoexCalculatorSwiftUIApp.swift */,
-				1A84C2BB2C89955A0093815F /* ContentView.swift */,
+				1A84C2BB2C89955A0093815F /* CalculatorView.swift */,
+				1A84C2C72C89D6310093815F /* Currency.swift */,
+				1A84C2C92C89D7C60093815F /* CalculatorModel.swift */,
+				1A84C2CB2C89DBE30093815F /* CalculatorViewModel.swift */,
 				1A84C2BD2C89955C0093815F /* Assets.xcassets */,
 				1A84C2BF2C89955C0093815F /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A84C2BC2C89955A0093815F /* ContentView.swift in Sources */,
+				1A84C2C82C89D6310093815F /* Currency.swift in Sources */,
+				1A84C2BC2C89955A0093815F /* CalculatorView.swift in Sources */,
 				1A84C2BA2C89955A0093815F /* MoexCalculatorSwiftUIApp.swift in Sources */,
+				1A84C2CA2C89D7C60093815F /* CalculatorModel.swift in Sources */,
+				1A84C2CC2C89DBE30093815F /* CalculatorViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
