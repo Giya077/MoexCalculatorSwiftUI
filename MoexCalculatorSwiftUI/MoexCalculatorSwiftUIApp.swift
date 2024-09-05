@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct MoexCalculatorSwiftUIApp: App {
+struct MoexCalculator: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
