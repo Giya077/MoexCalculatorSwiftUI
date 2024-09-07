@@ -65,9 +65,9 @@
 				1A84C2BB2C89955A0093815F /* CalculatorView.swift */,
 				1A84C2CF2C8A2A250093815F /* CurrencyInput.swift */,
 				1A84C2C72C89D6310093815F /* Currency.swift */,
+				1A84C2CD2C8A25640093815F /* CurrencyPicker.swift */,
 				1A84C2C92C89D7C60093815F /* CalculatorModel.swift */,
 				1A84C2CB2C89DBE30093815F /* CalculatorViewModel.swift */,
-				1A84C2CD2C8A25640093815F /* CurrencyPicker.swift */,
 				1A84C2BD2C89955C0093815F /* Assets.xcassets */,
 				1A84C2BF2C89955C0093815F /* Preview Content */,
 			);

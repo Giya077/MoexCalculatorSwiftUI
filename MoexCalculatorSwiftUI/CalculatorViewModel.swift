@@ -11,6 +11,13 @@ final class CalculatorViewModel: ObservableObject {
     
     private var model = CalculatorModel()
     
+    enum State {
+        case loading
+        case content
+        case error
+    }
+    
+    @Published var state: State = .content
     @Published var topCurrency: Currency = .CNY
     @Published var bottomCurrency: Currency = .RUR
     
