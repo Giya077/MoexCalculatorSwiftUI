@@ -16,9 +16,12 @@
 		1A84C2CC2C89DBE30093815F /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A84C2CB2C89DBE30093815F /* CalculatorViewModel.swift */; };
 		1A84C2CE2C8A25640093815F /* CurrencyPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A84C2CD2C8A25640093815F /* CurrencyPicker.swift */; };
 		1A84C2D02C8A2A250093815F /* CurrencyInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A84C2CF2C8A2A250093815F /* CurrencyInput.swift */; };
+		1AFCD8E82C8CBCD700B89346 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFCD8E72C8CBCD700B89346 /* MainView.swift */; };
+		1AFCD8EA2C8CC59600B89346 /* MoexDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFCD8E92C8CC59600B89346 /* MoexDataLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A3E56092C8CC99B00885BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A84C2B62C89955A0093815F /* MoexCalculatorSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoexCalculatorSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A84C2B92C89955A0093815F /* MoexCalculatorSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoexCalculatorSwiftUIApp.swift; sourceTree = "<group>"; };
 		1A84C2BB2C89955A0093815F /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
@@ -29,6 +32,8 @@
 		1A84C2CB2C89DBE30093815F /* CalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
 		1A84C2CD2C8A25640093815F /* CurrencyPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPicker.swift; sourceTree = "<group>"; };
 		1A84C2CF2C8A2A250093815F /* CurrencyInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyInput.swift; sourceTree = "<group>"; };
+		1AFCD8E72C8CBCD700B89346 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		1AFCD8E92C8CC59600B89346 /* MoexDataLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoexDataLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +66,9 @@
 		1A84C2B82C89955A0093815F /* MoexCalculatorSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				1A3E56092C8CC99B00885BAD /* Info.plist */,
+				1AFCD8E72C8CBCD700B89346 /* MainView.swift */,
+				1AFCD8E92C8CC59600B89346 /* MoexDataLoader.swift */,
 				1A84C2B92C89955A0093815F /* MoexCalculatorSwiftUIApp.swift */,
 				1A84C2BB2C89955A0093815F /* CalculatorView.swift */,
 				1A84C2CF2C8A2A250093815F /* CurrencyInput.swift */,
@@ -153,7 +161,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A84C2CE2C8A25640093815F /* CurrencyPicker.swift in Sources */,
+				1AFCD8E82C8CBCD700B89346 /* MainView.swift in Sources */,
 				1A84C2C82C89D6310093815F /* Currency.swift in Sources */,
+				1AFCD8EA2C8CC59600B89346 /* MoexDataLoader.swift in Sources */,
 				1A84C2BC2C89955A0093815F /* CalculatorView.swift in Sources */,
 				1A84C2D02C8A2A250093815F /* CurrencyInput.swift in Sources */,
 				1A84C2BA2C89955A0093815F /* MoexCalculatorSwiftUIApp.swift in Sources */,
@@ -295,6 +305,8 @@
 				DEVELOPMENT_TEAM = PXN76A2D3Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoexCalculatorSwiftUI/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -324,6 +336,8 @@
 				DEVELOPMENT_TEAM = PXN76A2D3Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoexCalculatorSwiftUI/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
